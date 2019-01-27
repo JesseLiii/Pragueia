@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "647466054448",
+    "firebase_url": "https://pragueia-306ce.firebaseio.com",
+    "project_id": "pragueia-306ce",
+    "storage_bucket": "pragueia-306ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647466054448:android:f2a15848585241dc",
+        "android_client_info": {
+          "package_name": "com.jesseliii.pragueia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647466054448-lv9g8f3ini4rr7l7jt0hr1eou4mprr23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jesseliii.pragueia",
+            "certificate_hash": "18456f2992fa9a7254006e8717fba391cb753e2a"
+          }
+        },
+        {
+          "client_id": "647466054448-r15pfpprb6va1ql17js08kgn2jun1j97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmtgYLk-5uxInPodbPTVh_CHGdhLPhrPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647466054448-r15pfpprb6va1ql17js08kgn2jun1j97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

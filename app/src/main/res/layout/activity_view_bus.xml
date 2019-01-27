@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RenterProfile"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/bustype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bus Type" />
+
+            <EditText
+                android:id="@+id/seatnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="# of Seats"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/priceperday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price Per Day (€)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/pickupadress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pickup Adress" />
+
+            <EditText
+                android:id="@+id/rules1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 1"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 2"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 3"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 4"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 5"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 6"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 7"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 8"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 9"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <EditText
+                android:id="@+id/rules10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="No Rule 10"
+                android:inputType="textMultiLine"
+                android:maxLines="10" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/back"
+                android:text="back"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

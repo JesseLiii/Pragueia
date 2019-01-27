@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RenterProfile"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <EditText
+    android:id="@+id/bustype"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Bus Type" />
+
+    <EditText
+        android:id="@+id/seatnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="# of Seats"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/priceperday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price Per Day (€)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/pickupadress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Adress" />
+
+    <EditText
+        android:id="@+id/isout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Is Out?" />
+
+    <EditText
+        android:id="@+id/rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rules : Max 10"
+        android:inputType="textMultiLine"
+        android:maxLines="10" />
+
+    <Button
+        android:id="@+id/addbus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Bus" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="back"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
